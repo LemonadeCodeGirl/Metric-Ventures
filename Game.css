@@ -1,0 +1,65 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Mycoolfont-Regular.ttf);
+}
+
+body{
+	background-color: white;
+	opacity: 1;
+	background-image: radial-gradient(#D1F0E1 2px, #F0FAF5 2px);
+	background-size: 25px 25px;
+
+	color: black;
+
+	text-align: center;
+}
+
+
+/* CSS For The Header */
+
+#logoImage{
+	margin-top: 0px;
+	width: 20%;
+}
+
+#Heading{
+	text-align: center;
+
+	font-family: myFirstFont;
+}
+
+#Heading h1{
+	font-size: 450%;
+	margin-top: 0px;
+	/*padding-top: -20px;*/
+}
+#Heading h2{
+	margin-top: -10px;
+}
+
+#Menu{
+	list-style-type: none;
+	text-align: center;
+	
+	font-family: myFirstFont;
+	font-size: 30px; /*Fix this*/
+	color: grey;
+
+}
+#content{
+	align-content: center;
+}
+
+#content #MainHeader{
+	text-align: center;
+
+	font-size: 400%;
+	font-family: myFirstFont;
+}
+
+iframe{
+	display: block;
+	margin: 0 auto;
+	/*width: 100%;
+	height: 100%;*/
+}

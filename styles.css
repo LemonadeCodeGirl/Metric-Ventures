@@ -1,0 +1,181 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Mycoolfont-Regular.ttf);
+}
+
+body{
+	background-color: white;
+	opacity: 1;
+	background-image: radial-gradient(#D1F0E1 2px, #F0FAF5 2px);
+	background-size: 25px 25px;
+
+	color: black;
+	font-family: myFirstFont;
+	text-align: center;
+}
+
+
+/* CSS For The Header */
+
+#logoImage{
+	margin-top: 0px;
+	width: 20%;
+}
+
+#Heading{
+	text-align: center;
+
+	font-family: myFirstFont;
+}
+
+#Heading h1{
+	font-size: 450%;
+	margin-top: 0px;
+	/*padding-top: -20px;*/
+}
+#Heading h2{
+	margin-top: -10px;
+	color:  #07074C;
+}
+
+nav{
+	font-family: myFirstFont;
+
+	letter-spacing: 2px;
+	word-spacing: 20px;
+}
+
+#part1{
+	margin: 20px;
+	padding: 80px;
+
+	/*background: #07074C;*/
+	background-image: url(mesh-gradient.png);
+	color: white;
+
+	text-align: left; /*Come back to this later*/
+
+	font-family: myFirstFont;
+}
+#part1 h1{
+	font-size: 400%;
+	letter-spacing: 10px;
+}
+
+.css-button-arrow--black {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-family: myFirstFont;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #343a40
+}
+.css-button-arrow--black:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left:8px;
+}
+.css-button-arrow--black:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.css-button-arrow--black:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+/*----------------------------------------------*/
+
+#ourFeatures{
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#ourFeatures h1{
+	padding-top: 15px;
+
+	text-align: center;
+	font-size: 400%;
+
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+}
+
+#ourFeatures #column{
+	float: left;
+	width: 30%;
+	display: block;
+
+	padding: 20px;
+}
+
+#ourFeatures #column h2{
+	font-size: 200%;
+	text-align: center;
+}
+#ourFeatures .after{
+
+}
+
+/*------------------------------------------------*/
+
+#Seperator{
+	text-align: center;
+
+	padding: 15px;
+}
+
+/*------------------------------------------------*/
+
+#howItWorks h1{
+	/*padding-top: 15px;*/
+
+	text-align: center;
+	font-size: 400%;
+
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+}
+
+/*------------------------------------------------*/
+
+#tryItNow{
+	background: #E15554;
+
+	padding: 15px 0;
+}
+
+#tryItNow h1{
+	padding-top: 15px;
+
+	text-align: center;
+	font-size: 400%;
+
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+}
+
+#tryItNow #linkClickHere{
+	text-decoration: none;
+
+	color: #07074C;
+	font-size: 175%;
+}
